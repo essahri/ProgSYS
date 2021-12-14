@@ -7,7 +7,7 @@ Complexe moins(Complexe z1,Complexe z2);
 double module(Complexe z);
 double argument(Complexe z);
 ------------------------------------------------
-->complexe.o
+->complexe.c
 
 #include <math.h>
 #include "complexe.h"
@@ -30,7 +30,7 @@ double argument(Complexe z){
 return atan( z.im / z.re);
 }
 
---->main
+--->main.c
 
 #include <stdlib.h>
 #include <stdio.h>
